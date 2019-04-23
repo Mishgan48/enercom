@@ -7,6 +7,9 @@ body {
   width: 100%;
   font-size: 1vw;
   font-family: 'Geometria';
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
 }
 img {
   max-width: 100%;
@@ -74,7 +77,7 @@ source {
   border-top: 2px solid #61A4D7;
 }
 .top__info {
-  padding: 3vh 1% 2vh 1%;
+  padding: 3vh 1%;
   margin: 0;
   margin-bottom: 1vh;
   font-size: 1.3em;
@@ -98,7 +101,7 @@ source {
 }
 #top button {
   width: 30%;
-  margin: 5vh 35%;
+  margin: 5vh 35% 0 35%;
   padding: 1em;
   background: linear-gradient(270deg, #8A60B3 0%, #369AE7 100%);
   border: 0;
@@ -127,24 +130,30 @@ source {
     width: 30%;
   }
   h1 {
-    margin-top: 10vh;
+    margin-top: 12vh;
     font-size: 2.5em;
-    line-height: 130%;
+    line-height: 150%;
   }
   .top__form {
     width: 70%;
     margin: 2vh 15%;
     border: 0;
   }
+  .top__info {
+    font-size: 2em;
+  }
   .top__form-text {
     margin: 1vh 8% 0 8%;
+    font-size: 2em;
   }
   #top input {
     width: 90%;
     margin: 0.5vh 5%;
+    font-size: 2em;
   }
   #top button {
     width: 60%;
     margin: 5vh 20%;
+    font-size: 1.7em;
   }
 }
