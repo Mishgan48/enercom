@@ -1,0 +1,15 @@
+@font-face {
+	font-family: 'EurostileExtended';
+	src: url('EurostileExtended.ttf');
+	src: local('EurostileExtended');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* @font-face {
+	font-family: 'EurostileExtended';
+	src: url('EurostileExtendedBlack.ttf');
+	src: local('Eurostile Extended Bold'), local('EurostileExtended-Bold');
+	font-weight: bold;
+	font-style: normal;
+} */
