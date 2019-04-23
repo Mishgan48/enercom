@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'Geometria';
+	src: url('Geometria-BoldItalic.otf');
+	src: local('Geometria Bold Italic'), local('Geometria-BoldItalic');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Geometria';
+	src: url('Geometria-Italic.otf');
+	src: local('Geometria Italic'), local('Geometria-Italic');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Geometria';
+	src: url('Geometria-Medium.otf');
+	src: local('Geometria Medium'), local('Geometria-Medium');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Geometria';
+	src: url('Geometria-Bold.otf');
+	src: local('Geometria Bold'), local('Geometria-Bold');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Geometria';
+	src: url('Geometria-LightItalic.otf');
+	src: local('Geometria Light Italic'), local('Geometria-LightItalic');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Geometria';
+	src: url('Geometria-Light.otf');
+	src: local('Geometria Light'), local('Geometria-Light');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Geometria';
+	src: url('Geometria.otf');
+	src: local('Geometria');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Geometria';
+	src: url('Geometria-MediumItalic.otf');
+	src: local('Geometria Medium Italic'), local('Geometria-MediumItalic');
+	font-weight: 500;
+	font-style: italic;
+}
