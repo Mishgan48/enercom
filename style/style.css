@@ -31,7 +31,7 @@ h1 {
 	height: 100vh;
 	width: 100%;
 	color: #fff;
-	/* background-color: rgba(0, 0, 0, 0.2); */
+	background-color: rgba(0, 0, 0, 0.2);
 }
 .img__robotics {
   width: 70%;

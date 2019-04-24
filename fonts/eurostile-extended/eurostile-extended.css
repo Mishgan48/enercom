@@ -1,7 +1,6 @@
 @font-face {
 	font-family: 'EurostileExtended';
 	src: url('EurostileExtended.ttf');
-	src: local('EurostileExtended');
 	font-weight: normal;
 	font-style: normal;
 }
