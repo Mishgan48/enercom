@@ -26,7 +26,7 @@
       <h1>ЦЕНТР РАЗРАБОТКИ И ИНТЕГРАЦИИ<br><span class="bold">РОБОТИЗИРОВАННЫХ РЕШЕНИЙ</span></h1>
 
       <form class="top__form" action="">
-        <p class="top__info">Сайт находится в разработке.<br>Будем рады ответить на все вопросы:</p>
+        <p class="top__info">Сайт находится в разработке.<br>Будем рады ответить на все Ваши вопросы:</p>
         <p class="top__form-text">Ваше имя:</p>
         <input type="text" name="" value="" placeholder="">
         <p class="top__form-text">Телефон:</p>
