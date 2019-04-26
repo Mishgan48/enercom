@@ -17,10 +17,10 @@
     <section id="top">
       <div class="top__panel">
         <div class="top__logo">
-          <img src="img/logo_top.png" alt="">
-          <img class="img__robotics" src="img/Robotics.png" alt="">
+          <img src="img/logo_white.png" alt="">
+          <!-- <img class="img__robotics" src="img/Robotics.png" alt=""> -->
         </div>
-        <div class="top__contact">+7 (4742) 48-00-18<br>office@enercom-robotics.com</div>
+        <div class="top__contact">+7 (4742) 48-00-18<br>office@enercom-robotics.com<br>г. Липецк, ул. Ковалёва, 115/8</div>
       </div>
 
       <h1>ЦЕНТР РАЗРАБОТКИ И ИНТЕГРАЦИИ<br><span class="bold">РОБОТИЗИРОВАННЫХ РЕШЕНИЙ</span></h1>

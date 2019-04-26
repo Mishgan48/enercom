@@ -19,7 +19,7 @@ img {
 }
 h1 {
   margin: 0;
-  padding: 2vh 5% 0 5%;
+  padding: 1vh 5% 0 5%;
   font-size: 2.8em;
   line-height: 180%;
   text-align: center;
@@ -31,7 +31,9 @@ h1 {
 	height: 100vh;
 	width: 100%;
 	color: #fff;
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(0, 0, 0, 0.4);
+  background-image: url('../img/grid.png');
+  background-position: left top;
 }
 .img__robotics {
   width: 70%;
@@ -109,6 +111,11 @@ source {
   font-size: 1em;
   color: #fff;
   outline: none;
+}
+.top__address {
+  width: 95%;
+  font-size: 1.3em;
+  text-align: right;
 }
 
 @media screen and (max-width: 1170px) {
