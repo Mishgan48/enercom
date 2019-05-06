@@ -19,11 +19,15 @@ img {
 }
 h1 {
   margin: 0;
-  padding: 1vh 5% 0 5%;
+  padding: 2vh 5% 0 5%;
   font-size: 2.8em;
-  line-height: 180%;
+  line-height: 140%;
   text-align: center;
   font-weight: normal;
+}
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* Заглушка */
@@ -47,7 +51,7 @@ h1 {
   padding: 2vh 5%;
 }
 .top__logo {
-  width: 12%;
+  width: 13%;
 }
 .top__logo-text {
   padding: 0;
@@ -56,7 +60,7 @@ h1 {
   /* font-family: 'EurostileExtended'; */
 }
 .top__contact {
-  font-size: 1.5em;
+  font-size: 1.3em;
   text-align: right;
   line-height: 110%;
 }
@@ -73,37 +77,64 @@ source {
 	width: 100%
 }
 .top__form {
+  display: flex;
+  flex-wrap: wrap;
   width: 54%;
-  margin: 5vh 23%;
+  margin: 3vh 23%;
   text-align: left;
   border-top: 2px solid #61A4D7;
 }
 .top__info {
-  padding: 3vh 1%;
-  margin: 0;
+  width: 90%;
+  padding: 3vh 1% 0 1%;
+  margin: 0 auto;
   margin-bottom: 1vh;
   font-size: 1.3em;
   text-align: center;
 }
+.top__form-tel {
+  width: 22%;
+  margin: 0 3% 0 20%;
+}
+.top__form-input {
+  width: 90%;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+}
+.top__form-mail {
+  width: 36.5%;
+}
 .top__form-text {
-  margin: 3vh 22% 0 22%;
+  margin: 2vh 0 0 10em;
   padding: 0;
   font-size: 1.2em;
   font-weight: 300;
 }
-#top input {
-  width: 60%;
-  margin: 0.5vh 20%;
+.top__form-text-small {
+  margin: 2vh 0 0 1em;
+  padding: 0;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+#top input,
+#top textarea {
   padding: 0.5em;
   border: 0;
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #fff;
   background-color: rgba(255,255,255,0.4);
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: inherit;
 }
-#top button {
+#top textarea {
+  width: 60%;
+  margin: 0.5vh 20%;
+  resize: none;
+}
+#top button,
+#top input[type=submit] {
   width: 30%;
-  margin: 5vh 35% 0 35%;
+  margin: 5vh auto 0 auto;
   padding: 1em;
   background: linear-gradient(270deg, #8A60B3 0%, #369AE7 100%);
   border: 0;
@@ -137,30 +168,47 @@ source {
     width: 30%;
   }
   h1 {
-    margin-top: 12vh;
+    margin-top: 10vh;
     font-size: 2.5em;
     line-height: 150%;
   }
   .top__form {
-    width: 70%;
-    margin: 2vh 15%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 86%;
+    margin: 2vh 7%;
     border: 0;
   }
   .top__info {
     font-size: 2em;
   }
-  .top__form-text {
-    margin: 1vh 8% 0 8%;
+  .top__form-tel {
+    width: 43%;
+    margin: 0 3% 0 0;
+  }
+  .top__form-mail {
+    width: 50%;
+  }
+  .top__form-text,
+  .top__form-text-small {
+    margin: 2vh 0 0 1.5em;
     font-size: 2em;
   }
+  #top textarea,
   #top input {
-    width: 90%;
-    margin: 0.5vh 5%;
     font-size: 2em;
+  }
+  #top textarea {
+    width: 90%;
+    margin: 1vh 5%;
   }
   #top button {
     width: 60%;
-    margin: 5vh 20%;
+    margin: 5vh auto;
     font-size: 1.7em;
+  }
+  .top__form-input {
+    width: 79%;
+    margin: 1vh 0 0 11%;
   }
 }
