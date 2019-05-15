@@ -16,7 +16,7 @@
     <script type="text/javascript" src="js/jquery.maskedinput.js"></script>
     <script type="text/javascript" src="js/js.js"></script>
 
-    <meta name="google-site-verification" content="2GlRdrgKvSnA1LwGgPITVg79DbUTR7hoRMHItDmgWoU" />
+    <meta name="google-site-verification" content="N9wO9huCMFi5fk4oYQ-glpD0cYCdwemdfMApB8d9zVQ" />
     <!-- Yandex.Metrika counter -->
 	<script type="text/javascript" >
 	   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -46,7 +46,7 @@
 
       <h1>ЦЕНТР РАЗРАБОТКИ И ИНТЕГРАЦИИ<br><span class="bold">РОБОТИЗИРОВАННЫХ РЕШЕНИЙ</span></h1>
 
-      <form class="top__form" action="https://formspree.io/j_korneva@mail.ru" method="POST">
+      <form class="top__form" action="https://formspree.io/enercomrobotics@gmail.com" method="POST">
         <p class="top__info">Сайт находится в разработке.<br>Будем рады ответить на Ваши вопросы:</p>
         <div class="top__form-tel">
           <p class="top__form-text-small">Телефон:</p>
